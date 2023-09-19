@@ -1,0 +1,25 @@
+body{
+  background-color: gray;
+  font-size: 72px;
+}
+
+.BIGRED{
+  font-size: 96px;
+  color: red;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#YellowHUGE{
+  color: yellow;
+  font-size: 200px;
+}
+
+.Slanty{
+  font-style: italic;
+  letter-spacing: -20px;
+}
+
+#FontFun{
+  font-family: "Lobster", Arial, sans-serif;
+}
