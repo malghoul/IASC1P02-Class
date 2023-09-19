@@ -1,0 +1,29 @@
+/*I didn't wanna do "red" because it hurts my eyes,
+so here's a hex code of a less eyestrain-y red*/
+body{
+  background-color: #960019
+}
+
+/*this manipulates every unordered list to have
+green text and be italicized*/
+ul{
+  color: green;
+  font-style: italic;
+}
+
+/*this manipulates every list item to be on one line
+and be a certain font size(30px in this case)*/
+li{
+  display: inline-block;
+  font-size: 30px;
+}
+
+/*i'm gonna try making another list look different through
+a class ruleset just for fun!*/
+.DifferentListStyle{
+  font-size: 50px;
+  color: purple;
+}
+/*doesn't override "display" eliminating bullet points when
+i use "float" to bring them back, since this is a class and the
+previous ruleset applies to ALL lists*/
