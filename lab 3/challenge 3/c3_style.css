@@ -1,0 +1,13 @@
+/*font family setup has Arial the font, anything with
+Arial in it, anything with Calibri in it, and then any sans-serif.
+In this case, Arial is usually installed by default so this is just an
+extra measure I should get used to for other fonts. (and if someone doesn't
+have Arial installed)*/
+p{
+  font-family: "Arial", Arial, Calibri, sans-serif;
+  text-transform: uppercase;
+}
+
+img{
+  border: 1px solid black;
+}
