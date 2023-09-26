@@ -4,10 +4,9 @@ body{
 }
 
 .myContainer{
-  margin: 150px 200px 150px 350px;
+  margin: 140px 200px 150px 350px;
   border: black 5px solid;
-  width: 61%;
-  height: 70%;
+  width: 63.4%;
 }
 
 #paragraphChange{
