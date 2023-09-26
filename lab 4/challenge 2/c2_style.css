@@ -1,0 +1,12 @@
+.dashedBox{
+  border: purple 3px dotted;
+  padding-top: 200px;
+  padding-right: 55px;
+  padding-bottom: 15px;
+  padding-left: 55px;
+  width: 70%;
+}
+
+div.dashedBox p{
+  text-align: center;
+}
