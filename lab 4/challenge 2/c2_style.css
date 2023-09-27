@@ -1,4 +1,6 @@
 .dashedBox{
+  margin-left: 10px;
+  margin-right: 10px;
   border: purple 3px dotted;
   padding-top: 200px;
   padding-right: 55px;
@@ -9,4 +11,9 @@
 
 div.dashedBox p{
   text-align: center;
+}
+
+.greenText{
+  font: bold 10px serif;
+  color: green;
 }
