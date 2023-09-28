@@ -1,0 +1,28 @@
+.red{
+  color: red;
+}
+
+.colourChange{
+  color: darkgreen;
+}
+
+div.Box{
+  margin: 15px;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: auto;
+  border: black 3px dotted;
+}
+
+div{
+  background-color: green;
+  width: 63%;
+}
+
+#textPurple{
+  padding: 0px;
+  border: none;
+  color: purple;
+}
