@@ -1,0 +1,31 @@
+#wrapper{
+  height: 850px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+#header{
+  height: 75px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+#fullBody{
+  height: 660px;
+  padding-top: 1px;
+  color: white;
+  background-color: green;
+}
+
+#footer{
+  width: auto;
+  padding-top: 1px;
+  padding-bottom: 45px;
+  color: white;
+  background-color: blue;
+}
