@@ -1,0 +1,48 @@
+body{
+  background-color: green;
+}
+
+#wrapper{
+  height: 940px;
+  width: 950px;
+  padding-bottom: 10px;
+  margin: -21px auto;
+  background-color: white;
+}
+
+#titleBox{
+  height: 80px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: red;
+}
+
+#leftNav{
+  float: left;
+  height: 90px;
+  width: 280px;
+  background-color: pink;
+}
+
+#rightNav{
+  float: left;
+  height: 90px;
+  width: 670px;
+  background-color: orange;
+}
+
+#contentBox{
+  clear: both;
+  height: 680px;
+  background-color: blue;
+}
+
+#footerSection{
+  height: 100px;
+  width: 950px;
+  background-color: yellow;
+}
+
+#footerSection h2{
+  margin-top: -10px;
+}
