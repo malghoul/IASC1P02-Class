@@ -1,5 +1,35 @@
 #wrapper{
-  height: 95%;
-  width: 95%;
+  position: absolute;
+  height: 900px;
+  width: 1700px;
+  padding: 10px;
   background-color: green;
+}
+
+#blueBox{
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin-left: 300px;
+  padding-top: 5px;
+  background-color: blue;
+}
+
+#redBox{
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-top: -305px;
+  margin-left: 700px;
+  margin-right: 300px;
+  padding-top: 5px;
+  background-color: red;
+}
+
+#yellowBox{
+  clear: both;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: yellow;
 }
