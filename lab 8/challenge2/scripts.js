@@ -11,7 +11,7 @@ third = "#AB00FF";
 //A function to change colours of elements when called
 function mix()
 {
-	console.log("your mom");
+//edited this to remove the console log that i used to check if it worked
 	document.getElementById("blue").style.color = first;
 	document.getElementById("green").style.color = second;
 	document.getElementById("red").style.color = third;
