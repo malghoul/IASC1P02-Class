@@ -1,26 +1,103 @@
+body{
+  font-family: "Helvetica", arial, sans-serif;
+}
+
 #wrapper{
-  background-color: #F9F9EA;
-  margin: auto;
-  height: auto;
-  width:
+  height: 900px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #F8F8EE;
+}
+
+#header img{
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 80px;
+  width: 80px;
+  float: left;
 }
 
 #header{
-
+  height: 90px;
+  width: 900px;
+  background-color: #1E9C33;
 }
 
-#bodyImage{
+.headingText{
+  margin-bottom: 30px;
+  font: bold 50px;
+  color: #FBFBF4;
+  float: left;
+}
 
+/*I've been trying to figure out how to
+make the navbar smaller but it's been unsuccessful,
+sorry for the slight inaccuracy*/
+#navBar{
+  position: fixed;
+  width: 900px;
+  text-align: center;
+  background-color: #3F259D;
+}
+
+li{
+  display: inline-block;
+  font-size: 20px;
+  color: #FBFBF4;
+}
+
+#bodyImage img{
+  height: 300px;
+  width: 900px;
 }
 
 #leftHalf{
+  float: left;
+  width: 400px;
+  padding: 20px;
+  margin-left: 20px;
+  color: #2D2D2D;
+}
 
+h2{
+  text-align: center;
 }
 
 #rightHalf{
-
+  float: right;
+  width: 400px;
+  padding: 20px;
+  color: #2D2D2D;
 }
 
-#footer{
+#missionStatement{
+  clear: both;
+  padding: 20px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  color: #2D2D2D;
+}
 
+/*i was trying really hard to replicate the footer
+with the address line beside the logo on the left.
+i have no clue how to fix it though and i looked up and
+messed with multiple ways with no luck.... i tried.. </3*/
+#footer{
+  height: 40px;
+  background-color: #F0F0E8;
+  border-top: solid 2px #E4E4DA;
+  padding: 5px;
+  font-size: 12px;
+  color: #2D2D2D;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer img{
+  float: left;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
 }
