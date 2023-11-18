@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Lab 10 Exercise</title>
+	<script defer type="text/javascript" src="challengescripts.js"></script>
+
+</head>
+
+<body>
+
+  <form name="calculation">
+    <br/>
+    <!-- the input for the first number -->
+    <label for="number1"></label>
+    <input type="number" id="number1" required>
+
+    <button type="button" onclick="addition()">+</button>
+    <button type="button" onclick="subtraction()">-</button>
+    <button type="button" onclick="multiplication()">*</button>
+    <button type="button" onclick="division()">/</button>
+
+    <!-- the input for the second number -->
+    <label for="number2"></label>
+    <input type="number" id="number2" required>
+
+    <!-- updates the output with the equals button -->
+    <button type="button" onclick="updateOutput()">=</button>
+    <br/>
+
+    <p id="theTotals">OUTPUT</p>
+
+  </form>
+
+</body>
+
+</html>
