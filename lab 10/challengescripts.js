@@ -29,9 +29,3 @@ function division()
 {
   performOperation((num1, num2) => num1 / num2);
 }
-
-function updateOutput()
-{
-  var theCurrentTotal = document.getElementById('theTotals').innerHTML;
-  document.getElementById('theTotals').innerHTML = theCurrentTotal;
-}
