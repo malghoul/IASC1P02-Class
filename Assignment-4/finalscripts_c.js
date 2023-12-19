@@ -26,10 +26,23 @@ function Navigation(takeAway)
   window.location.href = pageDestination;
 }
 
+function validateForm() {
+  var emailInput = document.getElementById('email').value;
+
+  if (emailInput === '') {
+    alert('Email is required!');
+    return false; //doesnt allow person to submit
+  }
+  else {
+    submitForm();
+    return true; //now allows it
+  }
+}
+
 function submitForm() {
-  var name = document.getElementById('name').value;
-  var email = document.getElementById('email').value;
-  var message = document.getElementById('message').value;
+  var name = document.getElementById('name').innerHTML;
+  var email = document.getElementById('email').innerHTML;
+  var message = document.getElementById('message').innerHTML;
 
   console.log('Name:', name);
   console.log('Email:', email);

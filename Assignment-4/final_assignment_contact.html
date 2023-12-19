@@ -25,38 +25,34 @@
 	</div>
 
 	<div id="Wrapper">
-		<div class="socials">
-      <h2>Email</h2>
-      <p>Email me at: <a href="mailto:iq22wc@brocku.ca">iq22wc@brocku.ca</a></p>
-    </div>
+			<img class="banner" src="kamila-unsplash.jpg" alt="sketchbook on a wooden table surrounded by a few pencils and markers" />
+			<!--https://unsplash.com/photos/white-printing-paper-MVThvcFzVpA-->
+			<div class="socials">
+      	<p><span>Email</span><br/>Email me at: <br/> <a href="mailto:iq22wc@brocku.ca">iq22wc@brocku.ca</a></p>
+      	<p><span>LinkedIn</span><br/>Connect with me on LinkedIn: <br/> <a href="https://www.linkedin.com/in/yourprofile">Fake Profile</a></p>
+      	<p><span>Instagram</span><br/>Follow and DM me on Instagram: <br/> <a href="https://instagram.com/fakeuser">@fakeuser</a></p>
+    	</div>
 
-    <div class="socials">
-      <h2>LinkedIn</h2>
-      <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">Fake Profile</a></p>
-    </div>
+			<div class="textBigger">
+    		<p>
+      		Please allow me up to 3 business days to answer any of your inquiries.<br/> I will let you know what you are wondering to the best of my abilities.</p>
+			</div>
 
-    <div class="socials">
-      <h2>Instagram</h2>
-      <p>Follow and DM me on Instagram: <a href="https://instagram.com/yourusername">@yourusername</a></p>
-    </div>
-
-    <p style="text-align: center;">
-      Please allow me up to 3 business days to answer any of your inquiries. I will let you know what you are wondering to the best of my abilities.
-    </p>
-
-    <form name="fillIn">
-			<br/>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-			<br/>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-			<br/>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-			<br/>
-      <button type="submit" class="submitForm">Submit</button>
-    </form>
+    	<form action="none" name="fillInForm" class="fillInForm">
+				<br/>
+      	<label for="name">Name:</label>
+      	<input id="name" name="name" />
+				<br/>
+      	<label for="email">Email:</label>
+      	<input id="email" name="email" />
+				<br/>
+      	<label for="message">Message:</label>
+      	<textarea id="message" name="message" rows="4" cols="30"></textarea>
+				<br/>
+      	<button type="submit" onclick="validateForm()" class="submitButton">Submit</button>
+    	</form>
+		<!--This form doesn't actually submit anything to me or do anything special.-->
+	</div>
 
 	<div class="footer">
 		&copy; 2023 Alghoul Art. All rights reserved.
