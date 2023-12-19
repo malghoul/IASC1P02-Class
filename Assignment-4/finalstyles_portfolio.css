@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Tahoma", arial, sans-serif;
+  background-color: #F0EDED;
+}
+
+h2 {
+  text-align: center;
+  color: #A95C68;
+}
+
+.headerLogo {
+  max-width: 50%;
+}
+
+.headerLogo img {
+  height: 60px;
+  width: 60px;
+  margin-left: 50px;
+}
+
+.containerButtons {
+  display: flex;
+  margin-left: 200px;
+  max-width: 50%;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.navButton {
+  background: none;
+  border: solid 3px #744253; /*so it doesn't shift when i hover*/
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  box-sizing: border-box;
+}
+
+.navButton:hover {
+  color: white;
+}
+
+.gallery {
+  display: grid;
+  margin: 20px auto;
+  overflow: hidden;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+}
+
+.rows {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.image {
+  margin: 5px;
+  border: 2px solid grey;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.image:hover {
+  border: 2px solid black;
+}
+
+.bottomButton {
+  margin-top: 10px;
+  background-color: #B49286;
+  border: solid 3px #B49286;
+  border-radius: 8px;
+  opacity: 0.6;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.bottomButton:hover {
+  transition: 0.3s;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15), 0 10px 10px 0 rgba(0, 0, 0, 0.11), 0 15px 15px 0 rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+
+.centerContent {
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding-bottom: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  box-sizing: border-box; /*includes extra stuff into the width*/
+  margin: 0;
+  background-color: #744253;
+}
+
+#Wrapper {
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0px;
+  height: 1300px;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

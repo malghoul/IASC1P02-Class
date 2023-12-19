@@ -1,0 +1,167 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin: 0;
+  color: #898989;
+  height: 100%;
+  font-family: "Segoe UI", "Tahoma", arial, sans-serif;
+  background-color: #F0EDED;
+}
+
+h2 {
+  color: #B49286;
+}
+
+.productSplit {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.headerLogo {
+  max-width: 50%;
+}
+
+.headerLogo img {
+  height: 60px;
+  width: 60px;
+  margin-left: 50px;
+}
+
+.containerButtons {
+  display: flex;
+  margin-left: 200px;
+  max-width: 50%;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.navButton {
+  background: none;
+  margin: 0;
+  border: solid 3px #744253; /*so it doesn't shift when i hover*/
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  box-sizing: border-box;
+}
+
+.navButton:hover {
+  color: white;
+}
+
+.product1, .product2, .product3, .product4, .product5, .product6 {
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product1 img {
+  margin-left: 50px;
+  max-width: 70%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product2 img {
+  margin-top: 40px;
+  margin-left: 20px;
+  max-width: 90%;
+  border-radius: 5px;
+}
+
+.product2 p {
+  margin-top: 75px;
+}
+
+.product3 img {
+  margin-left: 80px;
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 5px;
+}
+
+.product4 img {
+  margin-top: 40px;
+  margin-left: 40px;
+  max-width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product4 p {
+  margin-top: 42px;
+}
+
+.product5 img {
+  margin-left: 20px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product6 img {
+  margin-left: 20px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.cartButton {
+  background: none;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: solid 3px #D6B0A7;
+  border-radius: 5px;
+  color: #D6B0A7;
+  font-weight: bold;
+}
+
+.cartButton:hover {
+  background-color: #B49286;
+  transition: 0.5s;
+  border: solid 3px #B49286;
+  color: white;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #333;
+  margin-top: 70%;
+  color: white;
+  padding-bottom: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  box-sizing: border-box; /*includes extra stuff into the width*/
+  margin: 0;
+  background-color: #744253;
+}
+
+#Wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  height: 500px;
+  max-width: 900px;
+}
+
+#bigSale {
+  background-color: #f8d7da;
+  color: #A95C68;
+  top: 0;
+  text-align: center;
+  font-size: 18px;
+}
